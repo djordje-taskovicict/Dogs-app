@@ -1,0 +1,40 @@
+# Node / build
+node_modules
+dist
+dist-ssr
+coverage
+
+# OS / tools
+.DS_Store
+
+# Env fajlovi (ne šalji stvarne ključeve)
+.env
+.env.*
+!.env.example
+
+# Vercel lokalni metapodaci
+.vercel
+
+# Cypress (ako koristiš)
+cypress/videos/
+cypress/screenshots/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
